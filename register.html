@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <!-- method can be GET or POST also can add action = action.php 
+    This is now an old method 
+    Just fix by adding value and names where form doesnt send values-->
+    <form method= "">
+        FirstName:<input type="text" name="firstname"><br>
+        LastName:<input type="text" name="lastname"><br>
+        email:<input type="email" required name="email"><br>
+        password:<input type="password" min="5" name="password"><br>
+        Birthday:<input type="date" name="date"><br>
+        Gender:<br>
+        <!--name attribute to connect
+        Also value and name need to be connected
+        Value is what is actually send ahead in the form-->
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender"value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        Pets:<br>
+        <!--name attribute to connect
+        add it to every element no problem-->
+        <input type="checkbox" name="pets">cats<br>
+        <input type="checkbox" name="pets">dogs<br>
+        Cars<br>
+        <select name="cars">
+            <option value="volvo" name="volvo">volvo</option>
+            <option value="audi" name="audi">audi</option>
+        </select><br>
+        <input type="submit" value="Register!"><br>
+        <input type="reset" ><br>
+
+    </form>
+</body>
+</html>
