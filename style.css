@@ -1,0 +1,118 @@
+/**{
+    text-align: right;
+}*/
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+}
+img{
+    float: left;
+    /* Most important*/
+}
+.paratext{
+    width: 1200px;
+    height: 900px;
+    text-align: justify;
+    border: 5px solid rgb(236, 9, 229);
+    background-color: rgba(184, 245, 180, 0.905);
+    /*rgba a stands for opacity 
+    width and height for box
+     also class paratext selected */
+}
+.boxmodel:hover{
+    background-color: red;
+}
+.boxmodel2:hover{
+    background-color: blue;
+}
+.boxmodel3:hover{
+    background-color: yellow;
+}
+.boxmodel4:hover{
+    background-color: green;
+}
+/*hover will activate the property else not*/
+h4{
+    border: 5px solid rgb(240, 240, 14);
+    background-color: rgb(249, 248, 248);
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 20px 5px 20px;
+     /* all li elements selected*/
+     /*width: ;
+    height: 
+    to increase size and height of boxes
+    */
+    /*padding for space between text and box
+    margin is space between boxes*/
+}
+p{  line-height: 40px;
+    font-family: 'Kablammo', cursive;
+}
+
+h1 , h3, a {
+    background-color: rgb(6, 234, 86);
+    color: aliceblue;
+    /*all h1,a and h3 element selected*/
+    
+
+}
+
+#mama{
+    background-color: rgb(255, 0, 0);
+    /*id applied to h2
+    priority given to id first, then classes, then css code order
+    activate first element * by uncommenting it which selects all elements 
+    but applied only to few due to 
+    id and classes
+    in css code having more priority
+    */
+}
+
+footer{
+    text-align: center;
+    clear: both;
+     /*need to use whenever clear is used*/
+}
+
+h5{
+    background-color: brown;
+}
+ul li {
+background-color: burlywood;
+display: inline-block;
+/*only element li selcted inside ul elements*/
+}
+
+ol > li {
+    color: rgb(241, 118, 139);
+    background-color: rgb(249, 243, 249);
+
+}
+    /*li element whose parents are ol elements*/
+    /*some more has div as parent and 
+    movies has div as parent*/
+li{
+    background-color: aqua;
+}
+
+/*
+Important CSS stuff
+class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order */
